@@ -16,7 +16,7 @@ jobs:
 
       - name: Build the article PDF
         id: build
-        uses: MilesCranmer/showyourwork-action/process-pull-request@latexdiff
+        uses: MilesCranmer/showyourwork-action@latexdiff
         env:
           SANDBOX_TOKEN: ${{ secrets.SANDBOX_TOKEN }}
           OVERLEAF_EMAIL: ${{ secrets.OVERLEAF_EMAIL }}
